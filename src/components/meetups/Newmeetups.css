@@ -1,0 +1,101 @@
+.form {
+  padding: 1rem;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.error-message {
+  color: red;
+  margin-top: px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+.control input,
+.control textarea {
+  display: block;
+  font: inherit;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 0.25rem;
+  width: 100%;
+}
+
+.actions {
+  margin-top: 1rem;
+  text-align: right;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #77002e;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #77002e;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #a50e48;
+  border-color: #a50e48;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.date-picker-container {
+  position: relative;
+}
+
+input[type="text"] {
+  /* padding: 8px; */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 200px; /* Adjust as needed */
+}
+
+.custom-datepicker {
+  left: 0;
+  z-index: 999;
+}
+.search-container {
+  position: relative;
+}
+
+.searchin input[type="text"] {
+  padding-left: 30px; /* adjust according to icon size */
+  padding-right: 30px; /* adjust according to icon size */
+}
+
+.searchin {
+  width: 100%;
+  height: 2rem;
+  position: relative;
+}
+
+.search-icon,
+.close-icon {
+  color: black;
+}
+
+.search-icon {
+  left: 10px; /* Adjust as needed */
+}
+
+.close-icon {
+  right: 10px; /* Adjust as needed */
+  cursor: pointer;
+}
